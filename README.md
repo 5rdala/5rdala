@@ -1,16 +1,18 @@
-## Hi there 👋
+```c
+typedef struct {
+	char *name;
+	int age;
+	char *fun_fact;
+} User;
 
-<!--
-**5rdala/5rdala** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+int main(int argc, char *argv[])
+{
+	User me = {};
 
-Here are some ideas to get you started:
+	me.name = "Marouane Souiri";
+	me.age = 18;
+	me.fun_fact = "5rdala is a high quality weed in morroco";
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+	return 0;
+}
+```
